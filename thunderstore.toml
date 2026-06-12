@@ -30,4 +30,4 @@ repository = "https://thunderstore.io"
 communities = ["sledding-game"]
 
 [publish.categories]
-sledding-game = ["client-side", "mods"]
+sledding-game = ["misc", "mods"]
