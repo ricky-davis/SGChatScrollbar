@@ -1,0 +1,33 @@
+[config]
+schemaVersion = "0.0.1"
+
+[package]
+namespace = "Spyci"
+name = "SGChatScrollbar"
+versionNumber = "1.0.0"
+description = "Adds a working, draggable scrollbar to the Sledding Game chat box so you can scroll back through chat history."
+websiteUrl = "https://github.com/ricky-davis/SGChatScrollbar"
+containsNsfwContent = false
+
+[package.dependencies]
+LavaGang-MelonLoader = "0.7.3"
+
+[build]
+icon = "./images/icon_256.png"
+readme = "./README.md"
+outdir = "./build"
+
+[[build.copy]]
+source = "bin/Release/net6.0/SGChatScrollbar.dll"
+target = "/"
+
+[[build.copy]]
+source = "CHANGELOG.md"
+target = "/"
+
+[publish]
+repository = "https://thunderstore.io"
+communities = ["sledding-game"]
+
+[publish.categories]
+sledding-game = ["client-side", "mods"]

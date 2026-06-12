@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SGChatScrollbar", "SGChatScrollbar.csproj", "{EC3F9EFD-1D83-494C-A5E8-C1D19BC6CDBF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EC3F9EFD-1D83-494C-A5E8-C1D19BC6CDBF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC3F9EFD-1D83-494C-A5E8-C1D19BC6CDBF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC3F9EFD-1D83-494C-A5E8-C1D19BC6CDBF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC3F9EFD-1D83-494C-A5E8-C1D19BC6CDBF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
